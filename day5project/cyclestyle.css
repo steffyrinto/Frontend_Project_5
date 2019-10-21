@@ -1,0 +1,202 @@
+body {
+    background-image: url(bg.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.bg {
+    background-image: url(bg-header.jpg);
+    width: 100%;
+    height: 15%;
+}
+
+.logo {
+    position: absolute;
+    left: 18%;
+    top: 6%;
+
+}
+
+.head {
+    position: absolute;
+    left: 41%;
+    height: 95px;
+
+}
+
+.nav ul {
+    position: absolute;
+    left: 70%;
+    top: 7%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+
+    color: white;
+    text-align: center;
+    padding: 1px 3px;
+    text-decoration: none;
+}
+
+.tria {
+    position: absolute;
+    left: 15%;
+    height: 100%;
+
+}
+
+.cycle {
+    position: absolute;
+    left: 20%;
+    top: 22%;
+}
+
+.fixed {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 40px;
+    color: darkgrey;
+    font-family: sans-serif;
+    color: lightblue;
+}
+
+.fixed:hover {
+    color: white;
+}
+
+.date {
+    position: absolute;
+    top: 200%;
+    left: 60%;
+    font-size: 10px;
+    color: lightblue;
+    font-family: sans-serif;
+}
+
+.para {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 220%;
+    left: 60%;
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+.para a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.para a:hover {
+    color: white;
+}
+
+.border {
+    position: absolute;
+    top: 90%;
+    border: 1px solid white;
+    width: 73%;
+    left: 14%;
+
+}
+
+.border2 {
+    position: absolute;
+    top: 92%;
+    height: 80%;
+    width: 73%;
+    left: 14%;
+
+}
+
+.more {
+    position: absolute;
+    margin-top: 1%;
+    left: 2%;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.more1 {
+    position: absolute;
+    top: 14%;
+    left: 2%;
+}
+
+.road {
+    width: 25%;
+    color: lightblue;
+    margin-top: 21.5%;
+    margin-left: 2%;
+    font-size: 13px;
+}
+
+.more2 {}
+
+.diary {
+    position: absolute;
+    width: 25%;
+    color: lightblue;
+    left: 28%;
+    top: 14%;
+    font-size: 13px;
+
+}
+
+.more3 {
+
+    left: 2%;
+}
+
+.product {
+    position: absolute;
+    width: 25%;
+    color: lightblue;
+    top: 14%;
+    left: 55%;
+    font-size: 13px;
+}
+
+.Bicy {
+    position: absolute;
+    width: 25%;
+    color: lightblue;
+    top: 14%;
+    left: 82%;
+    font-size: 13px;
+}
+
+.footer {
+    position: absolute;
+    top: 160%;
+    background-image: url(bg-header.jpg);
+    height: 5%;
+    width: 100%;
+
+
+}
+
+.footer p {
+    font-size: 15px;
+    position: absolute;
+    left: 67%;
+    color: lightblue;
+    margin-top: 8px;
+}
